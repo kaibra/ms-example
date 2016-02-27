@@ -5,7 +5,10 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/tools.logging "0.3.1"]
                  [org.clojure/clojure "1.8.0"]
-                 [kaibra/ms-httpkit "0.0.1"]
+
+                 [kaibra/mount-ms "0.0.2"]
+                 [kaibra/ms-httpkit "0.0.2"]
+
                  [mount "0.1.9"]
 
                  [javax.servlet/servlet-api "2.5"]
