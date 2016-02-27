@@ -7,5 +7,5 @@
 
 (defn -main [& args]
   (log/info "Starting MS-EXAMPLE")
-  (mount-ms/start
+  (mount-ms/start-with-states
     #'server/server))

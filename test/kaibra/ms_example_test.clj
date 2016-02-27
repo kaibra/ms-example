@@ -1,7 +1,8 @@
-(ns ms-example.core-test
+(ns kaibra.ms-example-test
   (:require [clojure.test :refer :all]
             [ms-example.ms-example :refer :all]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+  (testing "should start and stop the system"
+    ;tbd
+    ))
